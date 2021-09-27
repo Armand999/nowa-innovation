@@ -1,0 +1,21 @@
+{
+    "name": "123456/orissenergy",
+    "description": "Site vitrine de Oriss Energy",
+    "authors": [
+        {
+            "name": "Wilfried Assaud",
+            "email": "wilfriedassaud@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "cocur/slugify": "^4.0",
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
